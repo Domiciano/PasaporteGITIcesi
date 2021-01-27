@@ -6,8 +6,11 @@ Correo de los integrantes del pasaporte </br>
 [Lista](https://docs.google.com/spreadsheets/d/1w9ELsgnD8ex27fF88WIL0UhM5rGU1ftTxDXpZT4gaBM/edit?usp=sharing)
 
 
-### Clase 1
+### Clases
 [Clase 1](https://youtu.be/RmA4RKaR6oU)
+
+[Clase 2](https://www.youtube.com/watch?v=eNXxlCBr0yE)
+
 
 Comandos clave:
 </br>
