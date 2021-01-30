@@ -6,10 +6,12 @@ Correo de los integrantes del pasaporte </br>
 [Lista](https://docs.google.com/spreadsheets/d/1w9ELsgnD8ex27fF88WIL0UhM5rGU1ftTxDXpZT4gaBM/edit?usp=sharing)
 
 
-### Clases
+### Clases 2021-1
 [Clase 1](https://youtu.be/RmA4RKaR6oU)
 
 [Clase 2](https://www.youtube.com/watch?v=eNXxlCBr0yE)
+
+[Clase 3](https://youtu.be/zdag9QIMY-0)
 
 
 Comandos clave:
@@ -89,3 +91,124 @@ git revert <commitID>
 ```
 Permite deshacer el commit seleccionado
 </br>
+
+
+
+### Remotos
+```
+git remote -v 
+```
+Permite listar los remotos de nuestro repositorio local
+</br>
+
+
+```
+git remote add <nombreRemoto> <URLremoto> 
+```
+Permite agregar un remoto con un nombre específico
+</br>
+
+
+```
+git remote rm <nombreRemoto> 
+```
+Permite quitar un remoto
+</br>
+
+
+### Operaciones con remotos
+
+```
+git push <nombreRemoto> <nombreBranch> 
+```
+Permite actualizar un remoto con el trabajo hecho en el repositorio local
+
+```
+git pull <nombreRemoto> <nombreBranch> 
+```
+Permite actualizar una rama local usando una rama remota como fuente de actualización. Tener en cuenta que debemos estar parados en una rama local homónima a la que estamos invocando con el comando, porque si no, estamos mezclando las ramas
+
+
+```
+git fetch -p 
+```
+Permite actualizar las ramas respecto al repositorio remoto
+
+
+```
+git push --delete origin <nombreDeRama> 
+```
+Permite eliminar la rama nombreDeRama del remoto
+
+
+
+
+### Branches
+
+```
+git branch <nombreBranch>
+```
+Permite crear una nueva rama
+</br>
+
+```
+git checkout -b <nombreBranch>
+```
+Permite crear una nueva rama y pararse en ella en un sólo comando
+</br>
+
+```
+git branch -a
+```
+Listar todas las ramas
+</br>
+
+```
+git merge <nombreRama>
+```
+Permite mezclar la rama nombreRama en la rama en la que estemos parados. Hay 3 posibilidades: fast-fordward, recursive strategy o conflictos. En los dos últimos casos tendremos un commit específico que representa la mezcla.
+</br>
+
+```
+git branch -d
+```
+Permite eliminar una rama local
+</br>
+
+```
+git branch -D
+```
+Permite eliminar una rama local a la fuerza
+</br>
+
+
+### Tags
+
+
+```
+git tag -a <version> <commitID> -m "Mi descripcion del tag"
+```
+Permite taggear un commit específico
+</br>
+
+```
+git push origin <version>
+```
+Permite subir el tag <versión>
+</br>
+
+
+```
+git push origin --tags
+```
+Permite subir todos los tags
+</br>
+
+
+```
+git tag
+```
+Permite listar los tags
+</br>
+
+
