@@ -5,6 +5,12 @@ Pasaporte de git
 Correo de los integrantes del pasaporte </br>
 [Lista](https://docs.google.com/spreadsheets/d/1w9ELsgnD8ex27fF88WIL0UhM5rGU1ftTxDXpZT4gaBM/edit?usp=sharing)
 
+### Solucionarios
+
+[Solucionario Taller 1B](https://youtu.be/Rxi8SLDELXs)<br>
+[Solucionario Taller 2B](https://youtu.be/FVzl4HLe_yk)
+
+
 
 ### Clases 2021-1
 [Clase 1](https://youtu.be/RmA4RKaR6oU)
