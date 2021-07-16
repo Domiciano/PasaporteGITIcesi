@@ -27,50 +27,52 @@ Correo de los integrantes del pasaporte </br>
 git init
 ```
 Para iniciar proyecto git
-</br>
+</br></br>
 ```
 git status
 ```
 Para mirar los cambios actualues y el stage area 
-</br>
+</br></br>
 ```
 git add .
 ```
 Para agregar al stage area
-</br>
+</br></br>
 ```
 git commit -m "Mensaje"
 ```
 Para crear un commit
-</br>
+</br></br>
 ```
 git log --oneline
 ```
 Para ver el historial
-</br>
+</br></br>
+
+
 ```
 git log --oneline --graph
 ```
 Para ver el historial, pero más gráficamente
-</br>
+</br></br>
 
 ```
 git reset .
 ```
 Para deshacer el registro de cambios del stage area
-</br>
+</br></br>
 
 ```
 git checkout .
 ```
 Para deshacer los cambios que aún no están en el stage area
-</br>
+</br></br>
 
 ```
 git checkout <commitID>
 ```
 Para mirar una versión sin modificar la versión ni el historial
-</br>
+</br></br>
 
 
 
@@ -78,25 +80,25 @@ Para mirar una versión sin modificar la versión ni el historial
 git reset --hard <commitID>
 ```
 Para viajar en el tiempo e ir a este commit específico. Cambia el historial y cambia el código
-</br>
+</br></br>
 
 ```
 git reset --soft <commitID>
 ```
 Permite modificar el historial, de modo que este regresa al commit específico, pero el código permanece intacto. Además soft, deja estos cambios ya de una vez agregados al stage area.
-</br>
+</br></br>
 
 ```
 git reset <commitID>
 ```
 Permite modificar el historial, de modo que este regresa al commit específico, pero el código permanece intacto. Los cambios quedan registrados, pero aún no se encuetran en el stage area.
-</br>
+</br></br>
 
 ```
 git revert <commitID>
 ```
 Permite deshacer el commit seleccionado
-</br>
+</br></br>
 
 
 
@@ -105,21 +107,21 @@ Permite deshacer el commit seleccionado
 git remote -v 
 ```
 Permite listar los remotos de nuestro repositorio local
-</br>
+</br></br>
 
 
 ```
 git remote add <nombreRemoto> <URLremoto> 
 ```
 Permite agregar un remoto con un nombre específico
-</br>
+</br></br>
 
 
 ```
 git remote rm <nombreRemoto> 
 ```
 Permite quitar un remoto
-</br>
+</br></br>
 
 
 ### Operaciones con remotos
@@ -128,25 +130,25 @@ Permite quitar un remoto
 git push <nombreRemoto> <nombreBranch> 
 ```
 Permite actualizar un remoto con el trabajo hecho en el repositorio local
+</br></br>
 
 ```
 git pull <nombreRemoto> <nombreBranch> 
 ```
 Permite actualizar una rama local usando una rama remota como fuente de actualización. Tener en cuenta que debemos estar parados en una rama local homónima a la que estamos invocando con el comando, porque si no, estamos mezclando las ramas
-
+</br></br>
 
 ```
 git fetch -p 
 ```
 Permite actualizar las ramas respecto al repositorio remoto
-
+</br></br>
 
 ```
 git push --delete origin <nombreDeRama> 
 ```
 Permite eliminar la rama nombreDeRama del remoto
-
-
+</br></br>
 
 
 ### Branches
@@ -155,37 +157,37 @@ Permite eliminar la rama nombreDeRama del remoto
 git branch <nombreBranch>
 ```
 Permite crear una nueva rama
-</br>
+</br></br>
 
 ```
 git checkout -b <nombreBranch>
 ```
 Permite crear una nueva rama y pararse en ella en un sólo comando
-</br>
+</br></br>
 
 ```
 git branch -a
 ```
 Listar todas las ramas
-</br>
+</br></br>
 
 ```
 git merge <nombreRama>
 ```
 Permite mezclar la rama nombreRama en la rama en la que estemos parados. Hay 3 posibilidades: fast-fordward, recursive strategy o conflictos. En los dos últimos casos tendremos un commit específico que representa la mezcla.
-</br>
+</br></br>
 
 ```
 git branch -d
 ```
 Permite eliminar una rama local
-</br>
+</br></br>
 
 ```
 git branch -D
 ```
 Permite eliminar una rama local a la fuerza
-</br>
+</br></br>
 
 
 ### Tags
