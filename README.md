@@ -1,18 +1,18 @@
 # GITPassport
 Pasaporte de git
 
-### Lista de correos
+## Lista de correos
 Correo de los integrantes del pasaporte </br>
 [Lista](https://docs.google.com/spreadsheets/d/1w9ELsgnD8ex27fF88WIL0UhM5rGU1ftTxDXpZT4gaBM/edit?usp=sharing)
 
-### Solucionarios
+## Solucionarios
 
 [Solucionario Taller 1B](https://youtu.be/Rxi8SLDELXs)<br>
 [Solucionario Taller 2B](https://youtu.be/FVzl4HLe_yk)
 
 
 
-### Clases 2021-1
+## Clases 2021-1
 [Clase 1](https://youtu.be/RmA4RKaR6oU)
 
 [Clase 2](https://www.youtube.com/watch?v=eNXxlCBr0yE)
@@ -20,7 +20,7 @@ Correo de los integrantes del pasaporte </br>
 [Clase 3](https://youtu.be/zdag9QIMY-0)
 
 
-Comandos clave:
+## Comandos clave:
 </br>
 
 ```
