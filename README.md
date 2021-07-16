@@ -190,6 +190,19 @@ Permite eliminar una rama local a la fuerza
 </br></br>
 
 
+```
+git stash
+```
+Algunas veces no podrá viajar entre branches porque hay cambios NO commiteados. Para evitar crear un commit innecesario use git stash. Es un guardado rápido. Al hacerlo, puede viajar tranquilamente al otro branch.
+
+
+```
+git stash apply
+```
+Al volver, puede recuperar lo que dejó en el stash usando este comando
+
+
+
 ### Tags
 
 
