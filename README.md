@@ -14,12 +14,12 @@ Correo de los integrantes del pasaporte </br>
 
 
 ## Clases 2021-2
-[Clase 1](https://youtu.be/waxfeZfGiCQ)
+[Clase 1](https://youtu.be/waxfeZfGiCQ)<br>
 [Clase 2](https://youtu.be/TQOHXfQAJ-E)
 
 
 ## Clases 2021-1
-[Clase 1](https://youtu.be/RmA4RKaR6oU)
+[Clase 1](https://youtu.be/RmA4RKaR6oU)<br>
 
 [Clase 2](https://www.youtube.com/watch?v=eNXxlCBr0yE)
 
